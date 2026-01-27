@@ -1,0 +1,65 @@
+body {
+  overflow-y: scroll;
+}
+
+.items-container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 0 50px;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+.item-card {
+  text-align: center;
+}
+
+.item-card:hover {
+  opacity: 0.5;
+}
+
+.item-image {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 6px;
+  overflow: hidden;
+  /* はみ出し防止 */
+  background: #eee;
+}
+
+.item-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* 画像トリミング */
+  display: block;
+}
+
+.item-name {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 2px;
+}
+
+.sold-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  background: rgba(255, 0, 0, 0.8);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+

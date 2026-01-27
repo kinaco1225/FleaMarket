@@ -1,0 +1,170 @@
+.sell-page {
+  background: #fff;
+  padding: 24px 0 60px;
+}
+
+.sell-container {
+  width: 100%;
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.sell-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 16px 0 24px;
+}
+
+.sell-section {
+  margin: 20px 0 28px;
+}
+
+.sell-section-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #5F5F5F;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 12px;
+}
+
+.sell-field {
+  margin-top: 14px;
+}
+
+.sell-label {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.sell-input,
+.sell-textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 8px 10px;
+  font-size: 13px;
+  box-sizing: border-box;
+}
+
+.sell-select {
+  width: 100%;
+  height: 38px;
+  padding: 0 12px;
+  border: 1px solid #888;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23555' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px 8px;
+  padding-right: 32px;
+}
+
+.sell-select option {
+  background: #5F5F5F;
+  color: #EAEAEA;
+}
+
+.sell-textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.sell-image-box {
+  border: 1px dashed #ccc;
+  height: 120px;
+  border-radius: 4px;
+  display: grid;
+  place-items: center;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.sell-image-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sell-image-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border: 2px solid #FF5555;
+  border-radius: 10px;
+  color: #FF5555;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  background: #fff;
+}
+
+.sell-image-button:hover {
+  background: #FF5555;
+  color: #fff;
+}
+
+.sell-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.cat-pill {
+  border: 1px solid #FF5555;
+  color: #FF5555;
+  background: #fff;
+  padding: 4px 14px;
+  border-radius: 999px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.cat-pill.is-active {
+  background: #FF5555;
+  color: #fff;
+}
+
+.sell-price {
+  position: relative;
+}
+
+.sell-yen {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+}
+
+.sell-price-input {
+  padding-left: 28px;
+}
+
+.sell-submit {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px 0;
+  background: #FF5555;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.sell-error {
+  margin-top: 6px;
+  color: #d00;
+  font-size: 12px;
+}

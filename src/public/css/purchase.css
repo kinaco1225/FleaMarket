@@ -1,0 +1,163 @@
+.purchase-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  gap: 40px;
+  
+}
+
+.purchase-left {
+  flex: 2;
+}
+
+.purchase-right {
+  width: 360px;
+}
+
+.purchase-item {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+.purchase-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  background: #eee;
+}
+
+.purchase-item-info {
+  align-self: flex-start;
+  margin-left: 20px;
+  
+}
+
+.purchase-item-info h1 {
+  font-size: 27px;
+  font-weight: bold;
+  margin: 0;
+}
+
+span {
+  margin-right: 5px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.purchase-block {
+  margin: 20px auto;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #000000;
+}
+
+.purchase-label {
+  display: block;
+  margin-left: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+
+.purchase-select {
+  width: 240px;
+  height: 36px;
+  padding: 0 12px;
+  border-radius: 3px;
+  font-size: 13px;
+  color: #333;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23555' stroke-width='2' fill='none'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px 8px;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+.purchase-select option {
+  background: #5F5F5F;
+  color: #EAEAEA;
+}
+
+.purchase-address-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.purchase-address-header span {
+  margin-left: 20px;
+}
+
+.change-link {
+  margin-right: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.purchase-address {
+  font-size: 14px;
+  margin-left: 70px;
+  margin-top: 20px;
+  
+}
+
+.purchase-address p {
+  margin: 0;
+}
+
+/* table */
+.purchase-summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  border: 1px solid #000000;
+}
+
+.purchase-summary-table th,
+.purchase-summary-table td {
+  padding: 27px 8px;
+  border-bottom: 1px solid #000000;
+}
+
+.purchase-summary-table th {
+  text-align: center;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.purchase-summary-table td {
+  text-align: center;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.purchase-button {
+  width: 100%;
+  background: #ff5555;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.purchase-error {
+  margin-left: 70px;
+  margin-top: 6px;
+  color: #d00;
+  font-size: 12px;
+}

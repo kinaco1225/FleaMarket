@@ -1,0 +1,94 @@
+/* profile */
+.profile-container {
+  max-width: 560px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+.profile-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-image-area {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+
+/* mypage */
+.mypage-image-area {
+  max-width: 900px;
+  margin: 40px auto 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mypage-left,
+.mypage-right {
+  display: flex;
+}
+
+.mypage-center {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.user-name {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 35px;
+}
+
+
+/* image共通  */
+.profile-image-preview {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #eee;
+  flex-shrink: 0;
+}
+
+.profile-image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-image-placeholder {
+  width: 100%;
+  height: 100%;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+
+.profile-image-button,
+.edit-profile-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  border: 2px solid #FF5555;
+  border-radius: 10px;
+  color: #FF5555;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.profile-image-button:hover,
+.edit-profile-link:hover {
+  background: #FF5555;
+  color: #fff;
+}

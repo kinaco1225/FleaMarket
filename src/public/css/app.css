@@ -1,0 +1,21 @@
+.header {
+  background-color: #000;
+  height: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.header-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 28px;
+  width: auto;
+  display: block;
+}
