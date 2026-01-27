@@ -1,7 +1,7 @@
 # FleaMarket（フリーマーケットアプリ）
 
 ## 環境構築
-- Docker のビルドからマイグレーション、シーディングまでを行い開発環境を構築
+ Docker のビルドからマイグレーション、シーディングまでを行い開発環境を構築
 - `docker-compose up -d --build` コンテナが作成
 - `docker-compose exec php bash` PHPコンテナ内にログイン
 - `composer install` をインストール
