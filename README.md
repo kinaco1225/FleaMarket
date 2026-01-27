@@ -21,7 +21,8 @@
 - WSL2 + Docker（開発環境）
 
 ## ER図
-<img width="681" height="306" alt="drawio" src="https://github.com/user-attachments/assets/ef11722e-80b2-495f-aef2-d8f052d98203" />
+<img width="660" height="921" alt="er_diagram" src="https://github.com/user-attachments/assets/9ad8fba6-2070-4174-96ee-079adc2c1897" />
+
 
 
 
