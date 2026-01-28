@@ -18,8 +18,8 @@
 - -- 
 ## 画像アップロードに関する権限設定
 #### プロフィール画像・商品画像は storage ディレクトリに保存されます。Docker 環境では、以下のコマンドで 書き込み権限の設定を行ってください。
-- chmod -R 777 storage bootstrap/cache
-- php artisan storage:link
+- `chmod -R 777 src/storage src/bootstrap/cache`
+- `php artisan storage:link`
 - --
 ## テスト用ユーザー情報
 #### 本アプリには 動作確認用のテストユーザーを2名用意しています。いずれも 同一のパスワードでログイン可能です。
