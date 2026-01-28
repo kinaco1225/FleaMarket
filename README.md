@@ -11,7 +11,7 @@
 ---
 #### 画像アップロードに関する権限設定
 ##### プロフィール画像・商品画像は storage ディレクトリに保存されます。Docker 環境では、以下のコマンドで 書き込み権限の設定を行ってください。
-- `chmod -R 777 src/storage src/bootstrap/cache`
+- `chmod -R 777 storage src/bootstrap/cache`
 - `php artisan storage:link`
 - --  
 - `php artisan migrate --seed` によりデータベースをセットアップ  
@@ -39,8 +39,8 @@
 - WSL2 + Docker（開発環境）
 - -- 
 ## 補足事項
--支払い方法の選択機能については、画面上の表示制御をJavaScriptで行っているため、バックエンド側での個別実装は行っていません。
-
+- 支払い方法の選択機能については、画面上の表示制御をJavaScriptで行っているため、バックエンド側での個別実装は行っていません。
+- --
 
 ## ER図
 <img width="660" height="921" alt="er_diagram" src="https://github.com/user-attachments/assets/9ad8fba6-2070-4174-96ee-079adc2c1897" />
