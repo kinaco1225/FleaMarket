@@ -1,4 +1,4 @@
-# FleaMarket（フリーマーケットアプリ）
+# FleaMarket（フリマアプリ）
 
 ## 環境構築
 ### Docker のビルドからマイグレーション、シーディングまでを行い開発環境を構築
@@ -29,15 +29,16 @@
 ##### テストユーザー②
 - `login-email` test2@example.com
 - `login-password` password
-
+- -- 
 ## 使用技術（実行環境）
 - PHP 8.x
 - Laravel 8.x
 - MySQL 8.x
 - WSL2 + Docker（開発環境）
-
+- -- 
 ## 補足事項
 -支払い方法の選択機能については、画面上の表示制御をJavaScriptで行っているため、バックエンド側での個別実装は行っていません。
+
 
 ## ER図
 <img width="660" height="921" alt="er_diagram" src="https://github.com/user-attachments/assets/9ad8fba6-2070-4174-96ee-079adc2c1897" />
