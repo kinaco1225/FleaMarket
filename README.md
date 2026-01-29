@@ -14,7 +14,7 @@
 - `chmod -R 777 storage bootstrap/cache`
 - `php artisan storage:link`
 - --  
-- `docker compose exec --user www-data app php artisan migrate --seed` によりデータベースをセットアップ  
+- `php artisan migrate --seed` によりデータベースをセットアップ
 - `php artisan serve` でローカルサーバー起動
 - -- 
 ## .env 設定について（Stripe）
