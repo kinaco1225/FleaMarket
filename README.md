@@ -14,7 +14,7 @@
 - `chmod -R 777 storage bootstrap/cache`
 - `php artisan storage:link`
 - --  
-- `php artisan migrate --seed` によりデータベースをセットアップ  
+- `docker compose exec --user www-data app php artisan migrate --seed` によりデータベースをセットアップ  
 - `php artisan serve` でローカルサーバー起動
 - -- 
 ## .env 設定について（Stripe）
@@ -40,6 +40,8 @@
 - -- 
 ## 補足事項
 - 支払い方法の選択機能については、画面上の表示制御をJavaScriptで行っているため、バックエンド側での個別実装は行っていません。
+####  Seeder 実行後や画像アップロード時にfopen(): Permission denied が発生した場合は、以下を再実行してください。
+- `chmod -R 777 storage bootstrap/cache`
 - --
 
 ## ER図
