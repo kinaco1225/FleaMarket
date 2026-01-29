@@ -23,17 +23,17 @@
 - STRIPE_SECRET=your_stripe_test_secret
 ## .env 設定について（メール送信（MailHog））
 #### 本アプリでは、開発環境に MailHog を使用しています。以下のように .envに設定してください。
-- MAIL_FROM_ADDRESS=no-reply@flea-market.test
+- MAIL_FROM_ADDRESS=`no-reply@flea-market.test`
 - -- 
 
 ## テスト用ユーザー情報
 #### 本アプリには 動作確認用のテストユーザーを2名用意しています。いずれも 同一のパスワードでログイン可能です。
 ##### テストユーザー①
-- `login-email` test1@example.com
-- `login-password` password
+- `login-email` `test1@example.com`
+- `login-password` `password`
 ##### テストユーザー②
-- `login-email` test2@example.com
-- `login-password` password
+- `login-email` `test2@example.com`
+- `login-password` `password`
 - -- 
 ## 使用技術（実行環境）
 - PHP 8.x
