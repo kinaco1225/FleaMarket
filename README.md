@@ -8,13 +8,13 @@
 - `cp .env.example .env` ファイルをコピー(`.env`作成)
 - `.env` の設定変更
 - `php artisan key:generate`  アプリキー生成
+- `php artisan migrate --seed` によりデータベースをセットアップ
 ---
 #### 画像アップロードに関する権限設定
 ##### プロフィール画像・商品画像は storage ディレクトリに保存されます。Docker 環境では、以下のコマンドで 書き込み権限の設定を行ってください。
 - `chmod -R 777 storage bootstrap/cache`
 - `php artisan storage:link`
-- --  
-- `php artisan migrate --seed` によりデータベースをセットアップ
+- --
 - `php artisan serve` でローカルサーバー起動
 - -- 
 ## .env 設定について（Stripe）
