@@ -5,7 +5,7 @@
 - `docker-compose up -d --build` コンテナが作成
 - `docker-compose exec php bash` PHPコンテナ内にログイン
 - `composer install` をインストール
-- `cp .env.example .env` ファイルをコピー(`.env`作成)
+- `cp .env.example .env` ファイルをコピー(.env作成)
 - `.env` の設定変更
 - `php artisan key:generate`  アプリキー生成
 - `php artisan migrate --seed` によりデータベースをセットアップ
@@ -37,20 +37,21 @@
 - login-email `test2@example.com`
 - login-password `password`
 - -- 
+## テスト実行方法
+#### 本アプリでは Feature テストを用意しています。
+- `php artisan test --testsuite=Feature`テスト実行
+---
 ## 使用技術（実行環境）
 - PHP 8.x
 - Laravel 8.x
 - MySQL 8.x
 - WSL2 + Docker（開発環境）
-- -- 
+--- 
 ## 補足事項
+#### テストについて
 - 支払い方法の選択機能については、画面上の表示制御をJavaScriptで行っているため、バックエンド側での個別実装は行っていません。
 ####  Seeder 実行後や画像アップロード時にfopen(): Permission denied が発生した場合は、以下を再実行してください。
 - `chmod -R 777 storage bootstrap/cache`
-- ---
-## テスト実行方法
-#### 本アプリでは Feature テストを用意しています。
-- `php artisan test --testsuite=Feature`テスト実行
 ---
 
 ## ER図
