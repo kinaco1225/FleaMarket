@@ -45,7 +45,11 @@
 - 支払い方法の選択機能については、画面上の表示制御をJavaScriptで行っているため、バックエンド側での個別実装は行っていません。
 ####  Seeder 実行後や画像アップロード時にfopen(): Permission denied が発生した場合は、以下を再実行してください。
 - `chmod -R 777 storage bootstrap/cache`
-- --
+- ---
+## テスト実行方法
+#### 本アプリでは Feature テストを用意しています。
+- `php artisan test --testsuite=Feature`テスト実行
+---
 
 ## ER図
 <img width="660" height="921" alt="er_diagram" src="https://github.com/user-attachments/assets/9ad8fba6-2070-4174-96ee-079adc2c1897" />
