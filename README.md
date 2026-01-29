@@ -21,6 +21,9 @@
 #### 本アプリでは Stripe を使用していますが、開発・テスト環境ではダミーキーを使用します。以下のように `.env`　`.env.testing` に設定してください。
 - STRIPE_KEY=pk_test_xxxxxxxxxxxxxx
 - STRIPE_SECRET=your_stripe_test_secret
+## .env 設定について（メール送信（MailHog））
+#### 本アプリでは、開発環境に MailHog を使用しています。以下のように .envに設定してください。
+- MAIL_FROM_ADDRESS=no-reply@flea-market.test
 - -- 
 
 ## テスト用ユーザー情報
